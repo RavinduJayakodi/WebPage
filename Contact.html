@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Website</title>
+    <!--Link tag for header icon-->
+    <link rel="icon" href="Images/think_green_head_plant_ecology_icon_191906.ico">
+    <link rel="stylesheet" href="Styles/styles.css">
+</head>
+<body>
+    <header>
+        <table>
+            <tr>
+                <td><img src="Images/logo.jpg" width="200" height="50"></td>
+                <td>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li> 
+                            <li><a href="#">VOTE</a></li>
+                            <li><a href="#">ACCOUNT</a></li>
+                            <li><a href="#">ABOUT US</a></li>
+                            <li><a href="Contact.html">CONTACT US</a></li> 
+                        </ul>
+                    </nav>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table cellspacing="20">
+        <tr>
+            <td><img src="Images/pexels-feelalivenow-9266627.jpg" alt="sgvs" width="600" height="600"></td>
+            <td>
+                <!--Form for submit details-->
+                <form action="index.html" method="POST" enctype="text/plain">
+                    <label>First Name</label>
+                    <input type="text" name="FirstName" required>
+                    <label>Last Name</label>
+                    <input type="text" name="LastName" required> 
+                    <br><br>
+                    <label>Email</label>
+                    <input type="email" name="Email" required>
+                    <br><br>
+                    <label>Phone Number</label>
+                    <input type="tel" name="PhoneNumber" pattern="[0-9]{10}" required>
+                    <br><br>
+                    <label>Your Message</label>
+                    <textarea name="Message" cols="30" rows="10"></textarea>
+                    <label>I want to subscribe notification</label>
+                    <input type="radio" required>
+                    <input type="submit">
+
+
+                </form>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
